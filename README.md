@@ -19,7 +19,7 @@ Pendant l'installation, un dossier `node-modules` est créé, on y retrouvera to
 
 ### Démarrer le serveur de développement Webpack 🔷
 
-Pour démarrer le serveur de développement Webpack et tout en restant toujours dans le répertoire de l'application web, il faut taper la commande suivante dans le terminal :
+Pour démarrer le serveur de développement Webpack, il faut taper la commande suivante dans le terminal tout en restant toujours dans le répertoire de l'application web :
 
         npm start
 
@@ -27,9 +27,9 @@ Une fois le serveur démarrer, l'application web est accessible depuis votre hô
   
 
 ### Pour exporter la version de production ⚙️
-Afin d'exporter la version de production de l'application web et tout en restant toujours dans le répertoire de l'application web, il faut taper la commande suivante dans le terminal :
+Afin d'exporter la version de production de l'application web, il faut taper la commande suivante dans le terminal tout en restant toujours dans le répertoire de l'application web :
 
         npm run build
 
-Quand `npm run build` est lancé, la fonctionnalité [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin) permet de regrouper le css dans un fichier séparé. Celui-ci sera inclu dans la balise `<head>` qui contient tous les éléments de l’en-tête de votre document du fichier `index.html`.
+Quand `npm run build` est lancé, la fonctionnalité [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin) permet de regrouper le css dans un fichier séparé. Celui-ci sera inclus dans la balise `<head>` qui contient tous les éléments de l’en-tête de votre document du fichier `index.html`.
 
